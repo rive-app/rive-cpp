@@ -1,0 +1,1 @@
+build --copt='-Werror' --copt='-pedantic' --copt='-Wall' --copt='-Wextra' --copt='-std=c++17'
