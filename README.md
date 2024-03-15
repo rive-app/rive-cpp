@@ -12,7 +12,7 @@ Rive C++ is a runtime library for [Rive](https://rive.app), a real-time interact
 The C++ runtime for Rive provides these runtime features:
 - Loading Artboards and their contents from **.riv** files.
 - Querying LinearAnimations and StateMachines from Artboards.
-- Making changes to Artboard hierarchy (fundamentally same guts used by LinearAnimations and StateMachines) and effienclty solving those changes via Artboard::advance.
+- Making changes to Artboard hierarchy (fundamentally same guts used by LinearAnimations and StateMachines) and efficiently solving those changes via Artboard::advance.
 - Abstract Renderer for submitting high level vector path commands with retained path objects to optimize and minimize path re-computation (ultimately up to the concrete rendering implementation).
 - Example concrete renderer written in C++ with [Skia](https://skia.org/). Skia renderer code is in [skia/renderer/src/skia_factory.cpp](skia/renderer/src/skia_factory.cpp).
 
