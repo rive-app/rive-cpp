@@ -5,11 +5,13 @@
 #ifndef _RIVE_TO_SKIA_HPP_
 #define _RIVE_TO_SKIA_HPP_
 
+#include "include/core/SkBlendMode.h"
 #include "include/core/SkMatrix.h"
 #include "include/core/SkPaint.h"
 #include "include/core/SkBlendMode.h"
 #include "include/core/SkPath.h"
 #include "include/core/SkPathTypes.h"
+#include "include/core/SkPoint.h"
 #include "include/core/SkTileMode.h"
 
 #include "rive/math/mat2d.hpp"
