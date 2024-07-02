@@ -14,4 +14,5 @@ Darwin*) machine=macosx ;;
 *) machine="unhandled:${unameOut}" ;;
 esac
 
-source $(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" &>/dev/null && pwd)/${machine}/config_directories.sh
+script_dir="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" &>/dev/null && pwd)"
+source "${script_dir}/${machine}/config_directories.sh"
